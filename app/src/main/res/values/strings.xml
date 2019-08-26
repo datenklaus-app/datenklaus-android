@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Datenklaus</string>
+    <string name="connecting">Connecting to Datenklaus</string>
+    <string name="loading_page">Loading the page</string>
+    <string name="enter_address">Enter an address or hit start</string>
+    <string name="datenklaus_url">http://datenklaus.org</string>
+    <string name="retry">Retry</string>
+    <string name="start">Start</string>
+    <string name="connect">Connect to Datenklaus</string>
+    <string name="conn_error">Couldn\'t connect. Enter a new address and try again</string>
+</resources>
