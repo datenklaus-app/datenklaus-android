@@ -25,10 +25,9 @@
             android:minEms="20" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonConnect"
         style="@style/Widget.MaterialComponents.Button"
-        android:background="@drawable/button_color"
         android:layout_width="wrap_content"
         android:layout_height="65dp"
         android:layout_marginStart="1dp"

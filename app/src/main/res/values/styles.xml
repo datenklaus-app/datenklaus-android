@@ -10,6 +10,7 @@
 
     <style name="AddrTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">@color/input_box_color</item>
+        <item name="boxStrokeWidth">10dp</item>
     </style>
 
 </resources>

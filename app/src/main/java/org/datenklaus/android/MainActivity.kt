@@ -7,7 +7,6 @@ import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.webkit.*
 import androidx.appcompat.app.AppCompatActivity
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private var loadError: Boolean = false
-    private var url = "http://192.168.1.2:8000"
+    private var url = "http://192.168.0.4:8000"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,10 +26,6 @@ class MainActivity : AppCompatActivity() {
             startFragment(IntroFragment.newInstance(), FRAGMENT_INTRO)
         }
 
-        webView.layoutParams = ConstraintLayout.LayoutParams(
-            ConstraintLayout.LayoutParams.MATCH_PARENT,
-            ConstraintLayout.LayoutParams.MATCH_PARENT
-        )
         webView.settings.javaScriptEnabled = true
         webView.settings.setAppCacheEnabled(false)
         webView.settings.cacheMode = WebSettings.LOAD_NO_CACHE
